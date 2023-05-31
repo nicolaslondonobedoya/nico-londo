@@ -1,0 +1,29 @@
+Algoritmo EjercicioUnidadDos
+	
+	Definir NombreTrabajador Como Caracter
+	Definir SalarioBruto Como Real;
+	Definir SalarioBrutoPorHoras Como Real;
+	Definir SalarioNeto Como Real;
+	Definir SalarioNetoPorHoras Como Real;
+	Definir NumeroHorasTrabajadas Como Real;
+	Definir Impuestos Como Real;
+	
+	Escribir "Ingrese su nombre";
+	Leer NombreTrabajador;
+	
+	Escribir "Ingrese numero de horas trabajadas Mensual" ;
+	Leer NumeroHorasTrabajadas
+	
+	Escribir "Ingrese valor de impuestos" ;
+	Leer Impuestos
+	
+	Escribir "Ingrese su salario bruto";
+	Leer SalarioBruto;
+	
+	SalarioBrutoPorHoras=SalarioBruto/NumeroHorasTrabajadas;
+	SalarioNetoPorHoras=(SalarioBruto-Impuestos)/NumeroHorasTrabajadas;
+	
+	
+	Escribir " Su salario bruto por horas es: ", SalarioBrutoPorHoras;
+	Escribir " Su salario Neto por horas es: ", SalarioNetoPorHoras;
+FinAlgoritmo
