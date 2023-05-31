@@ -1,0 +1,47 @@
+Algoritmo EjercicioClaseDos
+	
+	
+	
+	//Documentacion
+	//Enunciado:Calcular el area de un triangulo conociendo sus lados
+	//Autor: Duvan Stid Ortiz Gomez
+	//Fecha:01/03/2023
+	//Version: 1.0
+	
+	
+	
+	//Declaracion de variables 
+	definir v_ladoA Como Real;
+	definir v_ladoB Como Real;
+	definir v_ladoC Como Real;
+	definir v_Sp Como Real;
+	definir v_Area Como Real;
+	
+	
+	//Inicializacion de variables 
+	v_ladoA=0.0;
+	v_ladoB =0.0;
+	v_ladoC=0.0;
+	v_Sp=0.0;
+	v_Area=0.0;
+	//Entrada de datos o captura de datos
+	
+	Escribir Sin Saltar "Ingrese su lado A: ";
+	Leer v_ladoA;
+	
+	Escribir Sin Saltar "Ingrese su lado B: ";
+	Leer v_ladoB;
+	
+	Escribir Sin Saltar "Ingrese su lado C: ";
+	Leer v_ladoC;
+	
+	
+	//Procesos
+	
+	v_sp=(v_ladoA+v_ladoB+v_ladoC)/2;
+	v_Area=raiz(v_Sp*(v_sp-v_LadoA)*(v_sp-v_LadoB)*(v_sp-v_LadoC));
+	//Salida
+	Escribir "Su perimetro es igual a: ", v_sp
+	Escribir "Su area es igual a: ", v_Area
+	
+FinAlgoritmo
