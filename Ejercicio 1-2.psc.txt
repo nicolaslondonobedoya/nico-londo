@@ -1,0 +1,51 @@
+Ejercicio 1-2.psc.Algoritmo CalcularSLBrutoandNeto
+	
+	//Documentacion
+	//Enunciado: Conocer slario bruto y neto por horas
+	//Desarrollado: Duvan Ortiz
+	//Version:1.0
+	//Fecha:05/03/2023
+	
+	
+	//Declaracion de variables
+	definir Nombre como cadena;
+	definir NumeroDeHorasTrabajadas,PrecioPorHora,Impuesto,SalarioNetoPorHoras,SalarioBrutoPorHoras  como real;
+	
+	
+	//Inicializacion
+	
+	Nombre=("");
+	NumeroDeHorasTrabajadas=0;
+	Impuesto=0;
+	SalarioNeto=0;
+	PrecioPorHora=0;
+	
+	
+	//Entrada de datos
+	
+	Escribir "ingrese su nombre";
+	Leer Nombre;
+	
+	Escribir "ingrese el numero de horas trabajadas";
+	Leer NumeroDeHorasTrabajadas;
+	
+	Escribir "ingrese el valor de sus impuestos";
+	Leer Impuesto;
+	
+	Escribir "ingrese el precio por hora"
+	Leer PrecioPorHora;
+	
+	
+	//Procesos
+	
+	SalarioBrutoPorHoras=NumeroDeHorasTrabajadas*PrecioPorHora+Impuesto
+	
+	SalarioNetoPorHoras= SalarioBrutoPorHoras-Impuesto
+	
+	//Salidas
+	
+	
+	escribir "su salario neto por horas es: ", SalarioNetoPorHoras
+	Escribir "Su salario bruto por horas es: ", SalarioBrutoPorHoras;
+	
+FinAlgoritmo
