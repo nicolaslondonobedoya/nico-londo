@@ -1,0 +1,42 @@
+Algoritmo Ejercicio_Dos_Dos
+    
+	//Documentacion
+	
+	
+	//Desarrollado: Duvan Ortiz
+	
+	//Version:1.0
+	
+	//Fecha:05/03/2023
+	
+	//Declaracion de varbales
+	Definir Factor_1 Como Entero
+	Definir Factor_2 Como Entero
+	Definir Factor_3 Como Entero
+    
+	//Inicilizacion
+	
+    Factor_1 <- 0
+    Factor_2 <- 0
+	//Entrada de datos
+    Escribir "Introduce una serie de n�meros positivos. Introduce 0 para terminar."
+	Leer Factor_3
+	
+	//Procesos
+    
+    Mientras Factor_3 <> 0 Hacer
+        Si Factor_3 > 0 Entonces
+			Factor_1 <- Factor_1 + Factor_3
+			Factor_2 <- Factor_2 + 1
+        FinSi
+        Leer Factor_3
+    FinMientras
+    
+    Si Factor_2 > 0 Entonces
+        Definir media Como Real
+        media <- Factor_1 / Factor_2
+        Escribir "La media de los n�meros introducidos es: ", media
+    SiNo
+        Escribir "No se introdujeron n�meros positivos."
+    FinSi
+FinAlgoritmo
